@@ -21,8 +21,8 @@ public class ListaEnderecosTest extends BaseTest
 	{
 		home = new HomePage();
 		listaEnderecos = home.abrirPaginaLogin()
-							 .login(EMAIL, SENHA)
-							 .abrirListaEnderecos();
+			.login(EMAIL, SENHA)
+			.abrirListaEnderecos();
 	}
 	
 	@Test
