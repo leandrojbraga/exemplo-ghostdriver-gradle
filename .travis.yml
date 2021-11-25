@@ -1,6 +1,11 @@
 language: java
 jdk:
  - openjdk9
+ 
+matrix:
+  fast_finish: true
+  allow_failures:
+    - jdk: openjdk9
 
 notifications:
  email:
